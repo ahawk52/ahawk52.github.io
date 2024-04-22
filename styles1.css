@@ -1,0 +1,55 @@
+P{
+    font-weight: bold
+}
+
+#top{
+    text-decoration: wavy;
+
+}
+
+body{
+
+    background-color: rgb(255, 228, 204);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 20px solid black;
+    margin: 40px;
+    padding: 100px;
+}
+.center-list {
+    list-style-position: inside;
+    text-align: center;
+}
+.center-list li {
+    text-align: left;
+}
+
+.content {
+    display: flex;
+}
+
+.text {
+    flex: 1;
+}
+
+.media {
+    flex: 1;
+    text-align: center;
+}
+
+h1{
+    color: slategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+ol{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+ul{
+    font-weight: 500;
+}
